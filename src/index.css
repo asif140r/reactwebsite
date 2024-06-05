@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    body{
+        background: #000;
+    }
+
+    .text{
+        background: linear-gradient(to left, #243FE2,#E224DB);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .position{
+        content: "1";
+        position: absolute;
+        top:0;
+        left:0;
+        background: #fff;
+        color:red;
+    }
+    .blk{
+        display: inline-block;
+    }
+    .bgn{
+        background: none;
+    }
